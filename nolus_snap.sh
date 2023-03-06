@@ -1,7 +1,7 @@
 #!/bin/bash
 CHAIN_ID="nolus-rila"
 SNAP_PATH="$HOME/snapshots/nolus"
-LOG_PATH="$HOME/snapshots/nolus/nolus_log.txt"
+LOG_PATH="$HOME/nolus_snap/nolus_log.txt"
 DATA_PATH="$HOME/.nolus/data/"
 SERVICE_NAME="nolusd.service"
 RPC_ADDRESS="http://85.10.198.169:13557"

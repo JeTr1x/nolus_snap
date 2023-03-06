@@ -9,6 +9,6 @@ curl -L https://snapshots.kjnodes.com/nolus-testnet/snapshot_latest.tar.lz4 | ta
 mv $HOME/.nolus/priv_validator_state.json.backup $HOME/.nolus/data/priv_validator_state.json
 sudo systemctl start nolusd
 sleep 300
-bash /root/snapshots/nolus_snap.sh
+bash /root/nolus_snap/nolus_snap.sh
 sleep 43200
 done
